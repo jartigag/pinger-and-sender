@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+#
 # to log output, RUN WITH:
 # nohup python3 pinger.py > pingeroutput.log &
 
