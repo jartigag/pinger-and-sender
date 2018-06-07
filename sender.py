@@ -32,9 +32,9 @@ def login(email):
 		soup = BeautifulSoup(html, "html.parser")
 		for data in soup.find_all("span", {"class", "error"}):
 			if "password" in str(data):
-				print(email,"\033[92m EXISTS\033[0m in linkedin")
+				print(email+"\033[92m EXISTS\033[0m in linkedin")
 			if "recognize" in str(data):
-				print(email,"\033[93m DOESN'T\033[0m exist in linkedin")
+				print(email+"\033[93m DOESN'T\033[0m exist in linkedin")
 
 def main():
 	file = open("emails.txt", 'r')

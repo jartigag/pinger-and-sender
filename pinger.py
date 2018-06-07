@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 #
 # to log output, RUN WITH:
-# nohup python3 pinger.py > pingeroutput.log &
+# nohup python3 pinger.py >> pingeroutput.log &
 
 from bs4 import BeautifulSoup
 import urllib.request
